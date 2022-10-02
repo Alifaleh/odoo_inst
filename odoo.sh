@@ -33,10 +33,5 @@ mkdir /var/lib/odoo
 
 apt install -y ./wkhtmltox_0.12.5-1.bionic_amd64.deb
 
-#dpkg -i odoo_13.0+e.latest_all.deb
 
-#apt-get install -f -y
-
-#dpkg -i odoo_13.0+e.latest_all.deb 
-
-apt install -y ./odoo_14.0+e.latest_all.deb
+apt install -y ./odoo.deb
