@@ -11,7 +11,6 @@ apt install -y git python3-pip build-essential wget python3-dev python3-venv pyt
 apt install -y node-clean-css python3-babel python3-dateutil python3-decorator python3-docutils python3-feedparser python3-gevent python3-html2text python3-jinja2 python3-libsass python3-lxml python3-mako python3-mock python3-ofxparse python3-passlib python3-pil python3-psutil python3-psycopg2 python3-pydot python3-pyparsing python3-pypdf2 python3-reportlab python3-requests python3-serial python3-suds python3-tz python3-usb python3-vatnumber python3-werkzeug python3-xlsxwriter
 
 sudo -H pip3 install num2words ofxparse dbfread ebaysdk firebase_admin
-sudo python3 -m easy_install pyOpenSSL-22.1.0-py3-none-any.whl
 sudo -H pip3 install vobject qrcode
 sudo apt install libldap2-dev libsasl2-dev
 sudo -H pip3 install pyldap
