@@ -17,4 +17,6 @@ mkdir /var/lib/odoo
 
 apt install -y ./wkhtmltox_0.12.5-1.bionic_amd64.deb
 
+curl -L -o odoo.deb https://nightly.odoo.com/15.0/nightly/deb/odoo_15.0.20221013_all.deb
+
 apt install -y ./odoo.deb
